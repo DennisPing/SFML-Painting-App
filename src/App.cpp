@@ -308,7 +308,7 @@ void App::Init(void (*initFunction)(void)){
     settings.antialiasingLevel = 16;
     m_window = new sf::RenderWindow(sf::VideoMode(width,height),"Mini-Paint alpha 0.0.3",sf::Style::Titlebar | sf::Style::Close, settings);
     //m_window -> clear(sf::Color::White);
-    //m_window -> setFramerateLimit(60);
+    m_window -> setFramerateLimit(60);
     m_window -> setVerticalSyncEnabled(true);
     // Set the mouse cursor to be invisible because we are going to draw our own cursor
     m_window->setMouseCursorVisible(false);
