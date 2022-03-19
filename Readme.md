@@ -19,9 +19,9 @@ I improved the CPU and Memory usage significantly by utilizing the GPU to render
 - Undo entire strokes of the paintbrush
 - Redo entire strokes of the paintbrush
 - Unlimited undo/redo (up to physical RAM capacity)
-- Free memory in the redo stack after drawing something
+- Free memory in the redo stack after drawing something new
 - No memory leaks because all pointers are implemented with `smart_ptr`
-- Smooth edge painting (no lag or stutter when using a large paintbrush on the edges)
+- Smooth window edge painting (no lag or stutter when using a large paintbrush on the window edges)
 - Antialiasing! No jagged edges because GPU is rendering the pixels.
 
 ## How to Build
