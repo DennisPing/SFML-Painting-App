@@ -8,7 +8,7 @@ This program was originally designed in Foundations of Software Engineering (CS-
 
 ## Improvement
 
-I improved the CPU and Memory usage significantly by utilizing the GPU to render shapes and display them onto the screen while only consuming about 40% of the GPU on a 2018 Macbook Pro 13.
+I improved the CPU and Memory usage significantly by utilizing the GPU to render shapes and display them onto the screen with very low GPU cost on a 2018 Macbook Pro 13.
 
 ## Features
 
